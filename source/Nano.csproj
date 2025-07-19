@@ -32,5 +32,4 @@
     <EmbeddedResource Include="Graphics\StockShaders\TranslatedSource\fullscreen.vert.msl" />
     <EmbeddedResource Include="Graphics\StockShaders\TranslatedSource\video_yuv2rgba.frag.msl" />
   </ItemGroup>
-
 </Project>
