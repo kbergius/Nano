@@ -32,9 +32,4 @@
     <EmbeddedResource Include="Graphics\StockShaders\TranslatedSource\fullscreen.vert.msl" />
     <EmbeddedResource Include="Graphics\StockShaders\TranslatedSource\video_yuv2rgba.frag.msl" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Redhacker1\NanoUI\samples\NanoUIDemos\NanoUIDemos.csproj" />
-  </ItemGroup>
-
 </Project>
