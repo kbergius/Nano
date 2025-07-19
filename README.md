@@ -1,4 +1,4 @@
-This is a test graphics engine for NanoUI.
+This is a test graphics engine for [NanoUI](https://github.com/kbergius/NanoUI).
 
 It is stripped down & modified version of the [MoonWorks engine](https://github.com/MoonsideGames/MoonWorks).
 See licences in **licences** folder.
