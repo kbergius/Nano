@@ -1,6 +1,3 @@
-### Note: this repository is under construction. Please, come back after couple of days.
-
-
 This is a test graphics engine for NanoUI.
 
 It is stripped down & modified version of the [MoonWorks engine](https://github.com/MoonsideGames/MoonWorks).
