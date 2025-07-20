@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Graphics\StockShaders\Binary\fullscreen.vert.dxbc" />
+    <None Remove="Graphics\StockShaders\Binary\fullscreen.vert.dxil" />
+    <None Remove="Graphics\StockShaders\Binary\fullscreen.vert.spv" />
+    <None Remove="Graphics\StockShaders\Binary\video_yuv2rgba.frag.dxbc" />
+    <None Remove="Graphics\StockShaders\Binary\video_yuv2rgba.frag.dxil" />
+    <None Remove="Graphics\StockShaders\Binary\video_yuv2rgba.frag.spv" />
+    <None Remove="Graphics\StockShaders\Source\fullscreen.vert" />
+    <None Remove="Graphics\StockShaders\Source\video_yuv2rgba.frag" />
+    <None Remove="Graphics\StockShaders\TranslatedSource\fullscreen.vert.msl" />
+    <None Remove="Graphics\StockShaders\TranslatedSource\video_yuv2rgba.frag.msl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Graphics\StockShaders\Binary\fullscreen.vert.dxbc" />
+    <EmbeddedResource Include="Graphics\StockShaders\Binary\fullscreen.vert.dxil" />
+    <EmbeddedResource Include="Graphics\StockShaders\Binary\fullscreen.vert.spv" />
+    <EmbeddedResource Include="Graphics\StockShaders\Binary\video_yuv2rgba.frag.dxbc" />
+    <EmbeddedResource Include="Graphics\StockShaders\Binary\video_yuv2rgba.frag.dxil" />
+    <EmbeddedResource Include="Graphics\StockShaders\Binary\video_yuv2rgba.frag.spv" />
+    <EmbeddedResource Include="Graphics\StockShaders\Source\fullscreen.vert" />
+    <EmbeddedResource Include="Graphics\StockShaders\Source\video_yuv2rgba.frag" />
+    <EmbeddedResource Include="Graphics\StockShaders\TranslatedSource\fullscreen.vert.msl" />
+    <EmbeddedResource Include="Graphics\StockShaders\TranslatedSource\video_yuv2rgba.frag.msl" />
+  </ItemGroup>
+
+</Project>
